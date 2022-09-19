@@ -43,13 +43,15 @@ class Main {
         System.out.println("First number:");
         Double f = myMath.nextDouble();
         Double c = 0.0;
+        Double t = 0.0;
         for ( ; e>0; e-=1) {
           c = 0.0;
           System.out.println("Number:");
           c = myMath.nextDouble();
+          t+=c;
         }
         System.out.println("Output:");
-        System.out.println(f-c);
+        System.out.println(f-t);
       } if (z == 3) {
         System.out.println("Number 1:");
         Double x = myMath.nextDouble();
