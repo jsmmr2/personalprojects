@@ -38,7 +38,7 @@ class Main {
         }
         System.out.println(w);
       } if (z == 2) {
-        System.out.println("How may numbers would you like to subtract?");
+        System.out.println("How many numbers would you like to subtract?");
         int e = myMath.nextInt();
         System.out.println("First number:");
         Double f = myMath.nextDouble();
