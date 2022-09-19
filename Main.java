@@ -17,7 +17,7 @@ class Main {
       System.out.println("3 for Multiplication");
       System.out.println("4 for Division");
       System.out.println("5 for Square Root");
-
+ 
      // User input - mode
       System.out.println("");
       System.out.println("Input:");
