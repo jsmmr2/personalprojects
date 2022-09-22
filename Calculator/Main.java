@@ -9,7 +9,7 @@ class Main {
     All I ask is you don't copy paste my code
     I worked hard on this :)
     */
-    try (Scanner myMath = new Scanner(System.in)) {
+    Scanner myMath = new Scanner(System.in); 
       // Choose mode
       System.out.println("");
       System.out.println("Please enter:");
@@ -76,6 +76,6 @@ class Main {
       } if (z<1) {
         System.out.print("Not an option lol");
       }
-    }
+      myMath.close();
   }
 }
