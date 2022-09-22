@@ -25,7 +25,7 @@ class Main {
       int z = myMath.nextInt();
       System.out.println("");
 
-      // Determine mode, Add
+      static void doMath() {
       if (z == 1) {
         System.out.println("How many numbers would you like to add? (Integers only - You'll get an error if u dont)");
         int e = myMath.nextInt();
@@ -76,6 +76,7 @@ class Main {
       } if (z<1) {
         System.out.print("Not an option lol");
       }
+    }
       myMath.close();
   }
 }
